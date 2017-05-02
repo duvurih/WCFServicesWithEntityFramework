@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+WARNING: DO NOT MODIFY this file, it is used for the web publish process.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4a37abd1-0617-4b04-b919-76e17b04bec7}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/HKHostingServices</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HKWCFServices.Business.Customer.Contracts\HKWCFServices.Business.Customer.Contracts.csproj">
+      <Project>{D09BE389-61B4-483E-80D8-23983E16479E}</Project>
+      <Name>HKWCFServices.Business.Customer.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Customer.Facade\HKWCFServices.Business.Customer.Facade.csproj">
+      <Project>{85654B87-F330-427F-8438-8D143502443F}</Project>
+      <Name>HKWCFServices.Business.Customer.Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Product.Contracts\HKWCFServices.Business.Product.Contracts.csproj">
+      <Project>{34C80316-269F-424A-8262-5600CED31B0D}</Project>
+      <Name>HKWCFServices.Business.Product.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Product.Facade\HKWCFServices.Business.Product.Facade.csproj">
+      <Project>{9784B0E2-173E-45CC-8708-97FA4C791EF1}</Project>
+      <Name>HKWCFServices.Business.Product.Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Sales.Contracts\HKWCFServices.Business.Sales.Contracts.csproj">
+      <Project>{5BC3F02F-287E-4867-B673-F04C3A0BF633}</Project>
+      <Name>HKWCFServices.Business.Sales.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Sales.Facade\HKWCFServices.Business.Sales.Facade.csproj">
+      <Project>{1BBCB1B4-FD58-45AB-906C-786B377B29F4}</Project>
+      <Name>HKWCFServices.Business.Sales.Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HKWCFServices.Business.Shared\HKWCFServices.Business.Shared.csproj">
+      <Project>{6450BD36-6C41-4599-9809-B8C0B3B3321B}</Project>
+      <Name>HKWCFServices.Business.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

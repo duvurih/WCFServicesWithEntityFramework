@@ -3,3 +3,26 @@
 ################################################################################
 
 /HKWCFServices/HKHostingServices/Bin
+/HKWCFServices/HKWCFServices/bin
+/HKWCFServices/HKWCFServices/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Customer.Contracts/bin
+/HKWCFServices/HKWCFServices.Business.Customer.Contracts/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Customer.Facade/bin
+/HKWCFServices/HKWCFServices.Business.Customer.Facade/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Customer.Service/bin
+/HKWCFServices/HKWCFServices.Business.Customer.Service/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Product.Contracts/bin
+/HKWCFServices/HKWCFServices.Business.Product.Contracts/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Product.Facade/bin
+/HKWCFServices/HKWCFServices.Business.Product.Facade/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Product.Service/bin
+/HKWCFServices/HKWCFServices.Business.Product.Service/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Sales.Contracts/bin
+/HKWCFServices/HKWCFServices.Business.Sales.Contracts/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Sales.Facade/bin
+/HKWCFServices/HKWCFServices.Business.Sales.Facade/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Sales.Service/bin
+/HKWCFServices/HKWCFServices.Business.Sales.Service/obj/Debug
+/HKWCFServices/HKWCFServices.Business.Shared/bin/Debug
+/HKWCFServices/HKWCFServices.Business.Shared/obj/Debug
+/HKWCFServices/packages/EntityFramework.6.1.3

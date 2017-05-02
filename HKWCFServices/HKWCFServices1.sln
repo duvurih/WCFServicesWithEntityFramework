@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices", "HKWCFServices\HKWCFServices.csproj", "{DCCE4E14-A91E-4AEA-9F13-DD6CB4950016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Customer.Contracts", "HKWCFServices.Business.Customer.Contracts\HKWCFServices.Business.Customer.Contracts.csproj", "{D09BE389-61B4-483E-80D8-23983E16479E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Customer.Facade", "HKWCFServices.Business.Customer.Facade\HKWCFServices.Business.Customer.Facade.csproj", "{85654B87-F330-427F-8438-8D143502443F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Customer.Service", "HKWCFServices.Business.Customer.Service\HKWCFServices.Business.Customer.Service.csproj", "{AF41DCFF-C926-47A4-BDCD-70749C97CE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Product.Contracts", "HKWCFServices.Business.Product.Contracts\HKWCFServices.Business.Product.Contracts.csproj", "{34C80316-269F-424A-8262-5600CED31B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Product.Facade", "HKWCFServices.Business.Product.Facade\HKWCFServices.Business.Product.Facade.csproj", "{9784B0E2-173E-45CC-8708-97FA4C791EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Product.Service", "HKWCFServices.Business.Product.Service\HKWCFServices.Business.Product.Service.csproj", "{561E599A-0EFD-432B-A110-2A8A8CD64D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Sales.Contracts", "HKWCFServices.Business.Sales.Contracts\HKWCFServices.Business.Sales.Contracts.csproj", "{5BC3F02F-287E-4867-B673-F04C3A0BF633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Sales.Facade", "HKWCFServices.Business.Sales.Facade\HKWCFServices.Business.Sales.Facade.csproj", "{1BBCB1B4-FD58-45AB-906C-786B377B29F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Sales.Service", "HKWCFServices.Business.Sales.Service\HKWCFServices.Business.Sales.Service.csproj", "{6FA49E4A-5C4E-404F-97A9-1D9DB8EE5233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKWCFServices.Business.Shared", "HKWCFServices.Business.Shared\HKWCFServices.Business.Shared.csproj", "{6450BD36-6C41-4599-9809-B8C0B3B3321B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HKHostingServices", "HKHostingServices\", "{AAD47E00-525B-47C6-9FC9-714FC7C116E5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{d09be389-61b4-483e-80d8-23983e16479e}|HKWCFServices.Business.Customer.Contracts.dll;{85654b87-f330-427f-8438-8d143502443f}|HKWCFServices.Business.Customer.Facade.dll;{34c80316-269f-424a-8262-5600ced31b0d}|HKWCFServices.Business.Product.Contracts.dll;{9784b0e2-173e-45cc-8708-97fa4c791ef1}|HKWCFServices.Business.Product.Facade.dll;{6450BD36-6C41-4599-9809-B8C0B3B3321B}|HKWCFServices.Business.Shared.dll;{5bc3f02f-287e-4867-b673-f04c3a0bf633}|HKWCFServices.Business.Sales.Contracts.dll;{1bbcb1b4-fd58-45ab-906c-786b377b29f4}|HKWCFServices.Business.Sales.Facade.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50591"
+		Debug.AspNetCompiler.PhysicalPath = "HKHostingServices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50591\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50591"
+		Release.AspNetCompiler.PhysicalPath = "HKHostingServices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50591\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50591"
+		SlnRelativePath = "HKHostingServices\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCCE4E14-A91E-4AEA-9F13-DD6CB4950016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCE4E14-A91E-4AEA-9F13-DD6CB4950016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCE4E14-A91E-4AEA-9F13-DD6CB4950016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCE4E14-A91E-4AEA-9F13-DD6CB4950016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09BE389-61B4-483E-80D8-23983E16479E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09BE389-61B4-483E-80D8-23983E16479E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09BE389-61B4-483E-80D8-23983E16479E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09BE389-61B4-483E-80D8-23983E16479E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85654B87-F330-427F-8438-8D143502443F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85654B87-F330-427F-8438-8D143502443F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85654B87-F330-427F-8438-8D143502443F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85654B87-F330-427F-8438-8D143502443F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF41DCFF-C926-47A4-BDCD-70749C97CE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF41DCFF-C926-47A4-BDCD-70749C97CE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF41DCFF-C926-47A4-BDCD-70749C97CE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF41DCFF-C926-47A4-BDCD-70749C97CE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C80316-269F-424A-8262-5600CED31B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C80316-269F-424A-8262-5600CED31B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C80316-269F-424A-8262-5600CED31B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C80316-269F-424A-8262-5600CED31B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9784B0E2-173E-45CC-8708-97FA4C791EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9784B0E2-173E-45CC-8708-97FA4C791EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9784B0E2-173E-45CC-8708-97FA4C791EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9784B0E2-173E-45CC-8708-97FA4C791EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561E599A-0EFD-432B-A110-2A8A8CD64D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561E599A-0EFD-432B-A110-2A8A8CD64D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561E599A-0EFD-432B-A110-2A8A8CD64D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561E599A-0EFD-432B-A110-2A8A8CD64D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC3F02F-287E-4867-B673-F04C3A0BF633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC3F02F-287E-4867-B673-F04C3A0BF633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC3F02F-287E-4867-B673-F04C3A0BF633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC3F02F-287E-4867-B673-F04C3A0BF633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBCB1B4-FD58-45AB-906C-786B377B29F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBCB1B4-FD58-45AB-906C-786B377B29F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBCB1B4-FD58-45AB-906C-786B377B29F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBCB1B4-FD58-45AB-906C-786B377B29F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA49E4A-5C4E-404F-97A9-1D9DB8EE5233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA49E4A-5C4E-404F-97A9-1D9DB8EE5233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA49E4A-5C4E-404F-97A9-1D9DB8EE5233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA49E4A-5C4E-404F-97A9-1D9DB8EE5233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6450BD36-6C41-4599-9809-B8C0B3B3321B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6450BD36-6C41-4599-9809-B8C0B3B3321B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6450BD36-6C41-4599-9809-B8C0B3B3321B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6450BD36-6C41-4599-9809-B8C0B3B3321B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD47E00-525B-47C6-9FC9-714FC7C116E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD47E00-525B-47C6-9FC9-714FC7C116E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD47E00-525B-47C6-9FC9-714FC7C116E5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD47E00-525B-47C6-9FC9-714FC7C116E5}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
